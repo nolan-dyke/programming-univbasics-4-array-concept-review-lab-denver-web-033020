@@ -13,6 +13,7 @@ def find_max_value(array)
   counter = 0 
   new_array = array 
   while array[counter] do 
+    let max = 0 
     
   end 
 end
