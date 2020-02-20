@@ -12,9 +12,12 @@ end
 def find_max_value(array)
   counter = 0 
   new_array = array 
+  max = 0 
   while array[counter] do 
-    let max = 0 
-    
+    if (array[counter] > new_array[counter - 1])
+      max = array[counter]
+    end 
+    counter += 1 
   end 
 end
 
