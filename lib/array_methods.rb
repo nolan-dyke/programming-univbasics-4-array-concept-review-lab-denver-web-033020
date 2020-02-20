@@ -11,7 +11,7 @@ end
 
 def find_max_value(array)
   counter = 0 
-  new_array = []
+  new_array = array 
   while array[counter] do 
     
   end 
